@@ -1,0 +1,80 @@
+body{
+    background:gray ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 900px;
+    max-width: 900px;
+    margin: auto;
+    /*obs posso trocar a imagem de cima com a outra*/
+}
+
+.photo {
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+.post_image {
+    border: 5px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#title, .subtitle, .titlepost {
+    color: black;
+} 
+
+#title{
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:underline;
+}
+a:hover{
+    text-decoration: underline overline;
+    color: red;
+}
+
+/*article*/
+.titlepost{
+    font: size 16px;;
+    font-style:italic;
+    text-transform:capitalize;
+    margin: 0px; /*zerando a margem do h1*/
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.post {
+background-color:gray;
+/*o background-color é o fundo do article*/
+padding:15px;
+/*padding é um espaçamento entre as bordas e o conteúdo*/
+/*border é a largura da borda,  da caixa*/
+/*
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+*/
+margin-bottom: 15px;
+/*margin é o espaçamento entre elementos, não pode ser menor que a imagem*/
+ }
+ /*o erro em função do espaçamento do px, o vermelho é ok, unidades de medidaas não podem ficar longe do número*/
+  /*quando são dois valores apenas, serão do eixo x e y*/
+  /*10px 5px */
+  /*quando forem 4, serão topo, direita, inferior, querta */
+  /*15px 10px 5px 0*/
+/*existem três formas de inserir essas medidas em padding e marging, sendo a última com propriedades específicas*/
+
+.post_content {
+    margin: 0px; /*zerando a margem*/
+    margin-bottom: 15px;   
+    /*é uma boa prática manter as margens sempre na mesma direção, isot é, só acima em todas ou embaixo*/
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.context_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
